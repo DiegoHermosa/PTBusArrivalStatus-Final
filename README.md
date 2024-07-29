@@ -8,12 +8,12 @@ The data comes from the Public Trasportation History database that the company I
 
 The data can be found in this link
 
-[pt_bus_stop.csv](https://github.com/DiegoHermosa/PTBusArrivalStatus/tree/main/data/pt_bus_stop.csv)
+[pt_bus_stop.csv](https://github.com/DiegoHermosa/PTBusArrivalStatus-Final/tree/main/data/pt_bus_stop.csv)
 
 ### Notebook Link ###
 The following notebook contains all the development of the analysis carried out.
 
-[PTBusStopArrivalStatus.ipynb](https://github.com/DiegoHermosa/PTBusArrivalStatus/tree/main/PTBusStopArrivalStatus.ipynb)
+[PTBusStopArrivalStatus.ipynb](https://github.com/DiegoHermosa/PTBusArrivalStatus-Final/tree/main/PTBusStopArrivalStatus.ipynb)
 
 ### The techniques and Analysis ###
 1. Extract the bus arrival to stop data from the Public Trasportation History database filtering a single Stop and for a date range of 3 months (April-2024 to June-2024).
