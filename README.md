@@ -8,12 +8,11 @@ The data comes from the Public Trasportation History database that the company I
 - City bus stops
 - Buses
 - For every bus a 15 minutes was defined to visit each stop of the assigtned route.
-- For every Stop a record is stored containgin all the data when a Bus arrived and left each stop.
+- For every stop a record is stored containing all the data when a Bus arrived and left each stop.
 
 For the scope of this capstone, I extracted the bus arrival to stop data filtering a single Stop and a date range of 3 months(April-2024 to June-2024).
 
-
-The data can be found in this link
+The data can be found in this link:
 
 [pt_bus_stop.csv](https://github.com/DiegoHermosa/PTBusArrivalStatus-Final/tree/main/data/pt_bus_stop.csv)
 
