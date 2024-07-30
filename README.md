@@ -5,8 +5,8 @@ Can the Public Tranportation Bus Arrival to Stop be predicted as On Time, Early 
 ### Data: ### 
 The data comes from the Public Trasportation History database that the company I work for has developed for a Public Transportation Company. The database is updated daily with the information about:
 - City bus routes.
-- City bus stops
-- Buses
+- City bus stops.
+- Buses.
 - For every bus a 15 minutes was defined to visit each stop of the assigtned route.
 - For every stop a record is stored containing all the data when a Bus arrived and left each stop.
 
@@ -24,8 +24,8 @@ The following notebook contains all the development of the analysis carried out.
 ### The techniques and Analysis ###
 1. Extract the bus arrival to stop data from the Public Trasportation History database filtering a single Stop and for a date range of 3 months (April-2024 to June-2024).
 2. Perform a cleaning of the information in order to eliminate redundant data and outliers.
-3. Train KNN, Logistic regression, Decision tree and SVM models in search of the best one.
-4. Because of the dataset is imbalanced the SMOTE oversampling techniques will be used.
+3. Train KNN, Logistic regression, Decision tree, SVM and Ensemble models in search of the best one.
+4. Because of the dataset is imbalanced the SMOTE oversampling technique will be used.
    
 ### Dataset Understading ###
 #### The dataset contains the next featues:
