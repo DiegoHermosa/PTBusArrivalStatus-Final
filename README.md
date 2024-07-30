@@ -1,8 +1,8 @@
 # Capstone: Bus Arrival Status to Stop Prediction
-### Business Understanding: ### 
+### Business Understanding ### 
 The Public Transportation Companies deal daily with the challenge to ensure their buses be on time in every Stop so passengers can reach their destinations on time too. Sometimes, some factors like the traffic, weather and peak hours avoid meet that goal. 
 
-**Research question:**
+**Research question**
 
 Can the Public Transportation Bus Arrival to Stop be predicted as On Time, Early Or Late?
 
@@ -13,7 +13,7 @@ Be able to predict the Stop Bus Arrival Status with high accuracy will be very h
    - Digital Displays at Stops: Some bus stops have digital displays that show expected arrival information.
    - Text-Based Alerts: Some transit authorities offer text message alerts that notify users of bus arrival information.
 
-### Data: ### 
+### Data ### 
 The data comes from the Public Trasportation History database that the company I work for has developed for a Public Transportation Company. The database is updated daily with the information about:
 - City bus routes.
 - City bus stops.
