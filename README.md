@@ -18,8 +18,8 @@ The data comes from the Public Trasportation History database that the company I
 - City bus routes.
 - City bus stops.
 - Buses.
-- For every bus a 15 minutes was defined to visit each stop of the assigtned route.
-- For every stop a record is stored containing all the data when a Bus arrived and left each stop.
+- For every bus, a 15 minutes frequency was defined to visit each stop of the assigned route.
+- For every stop and bus, a record is stored containing all the data when a Bus arrived and left each stop.
 
 For the scope of this capstone project, I extracted the Bus Arrival to Stop historical data filtering a single Stop and for a date range of 3 months(April-2024 to June-2024).
 
@@ -67,7 +67,7 @@ The following notebook contains all the development of the analysis carried out.
 
 ![image](https://github.com/user-attachments/assets/3d5fa951-fd50-45b7-910b-fb2713aba84e)
 <br/>
-1. The missing value for some features were removed because they were few records without impacting the overall distribution. <br/>
+1. The missing values for some features were removed because there were few records without impacting the overall distribution. <br/>
 2. Features with no relevant information were removed. <br/>
 3. Categorical features like PeakHour and WeekDay were transformed to numerical values. <br/>
 
