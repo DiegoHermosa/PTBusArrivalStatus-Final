@@ -1,4 +1,4 @@
-# Capstone: Bus Arrival Status to Stop 
+# Capstone: Bus Arrival Status to Stop Prediction
 ### Business Understanding: ### 
 The Public Transportation Companies deal daily with the challenge to ensure their buses be on time in every Stop so passengers can reach their destinations on time too. Sometimes, some factors like the traffic, weather and peak hours avoid meet that goal. 
 
