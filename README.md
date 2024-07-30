@@ -1,6 +1,17 @@
 # Capstone: Bus Arrival Status to Stop 
 ### Business Understanding: ### 
-Can the Public Tranportation Bus Arrival to Stop be predicted as On Time, Early Or Late?
+The Public Transportation Companies deal daily with the challenge to ensure their buses be on time in every Stop so passengers can reach their destinations on time too. Sometimes, some factors like the traffic, weather and peak hours avoid meet that goal. 
+
+**Research question:**
+
+Can the Public Transportation Bus Arrival to Stop be predicted as On Time, Early Or Late?
+
+**Why this question is important?**
+
+Be able to predict the Stop Bus Arrival Status with high accuracy will be very helpful to the users who can plan better their trips. For companies this can be very benefitial so they provide this status in the several platform and services they offer to users:
+   - App-Based Tracking: Provide real-time bus arrival information, like the Miami-Dade Transit app
+   - Digital Displays at Stops: Some bus stops have digital displays that show expected arrival information.
+   - Text-Based Alerts: Some transit authorities offer text message alerts that notify users of bus arrival information.
 
 ### Data: ### 
 The data comes from the Public Trasportation History database that the company I work for has developed for a Public Transportation Company. The database is updated daily with the information about:
@@ -10,7 +21,7 @@ The data comes from the Public Trasportation History database that the company I
 - For every bus a 15 minutes was defined to visit each stop of the assigtned route.
 - For every stop a record is stored containing all the data when a Bus arrived and left each stop.
 
-For the scope of this capstone, I extracted the bus arrival to stop data filtering a single Stop and a date range of 3 months(April-2024 to June-2024).
+For the scope of this capstone project, I extracted the Bus Arrival to Stop historical data filtering a single Stop and for a date range of 3 months(April-2024 to June-2024).
 
 The data can be found in this link:
 
@@ -113,8 +124,9 @@ Running the Feature Importance analysis with the KNN best model we found the nex
 - **PeakHour**: The peak hour has an important influence because the city will have more traffic on those hours, more traffic and more people using the buses causing the travel time increases between stops so more Late statuses.  
 
 ### Findings
-1. According to the performance metrics we used the best model for the On Time Status prediction is KNN, it got a good score and due to the low training time it will be more suitable for implemetation that other models.
-2. To meet the expected bus frequency (each 15 minute a bus visiting a stop), the company needs to monitor periodically the bus performance by checking each stop arriving status metric along with Time difference between Stop Visits, Trip Duration. Stop Duration and the Peak Hours.
+1. The results show us that with the help of Machine Learning techniques and the Exploratory Data Analysis we can predict Bus Arrival Status.
+2. According to the performance metrics we used the best model for the On Time Status prediction is KNN, it got a good score and due to the low training time it will be more suitable for implemetation that other models.
+3. To meet the expected bus frequency (each 15 minute a bus visiting a stop), the company needs to monitor periodically the bus performance by checking each stop arrival status metric along with Time difference between Stop Visits, Trip Duration. Stop Duration and the Peak Hours.
 
 ### Next Steps and Recommendations
 1. Include new features to datatset to help with the predictions:
