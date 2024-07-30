@@ -2,7 +2,7 @@
 ### Business Understanding ### 
 The Public Transportation Companies deal daily with the challenge to ensure their buses be on time in every Stop so passengers can reach their destinations on time too. Sometimes, some factors like the traffic, weather and peak hours avoid meet that goal. 
 
-**Research question**
+**Research question:**
 
 Can the Public Transportation Bus Arrival to Stop be predicted as On Time, Early Or Late?
 
