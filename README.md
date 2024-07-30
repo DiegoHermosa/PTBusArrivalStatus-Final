@@ -124,7 +124,7 @@ Running the Feature Importance analysis with the KNN best model we found the nex
 - **PeakHour**: The peak hour has an important influence because the city will have more traffic on those hours, more traffic and more people using the buses causing the travel time increases between stops so more Late statuses.  
 
 ### Findings
-1. The results show us that with the help of Machine Learning techniques and the Exploratory Data Analysis we can predict Bus Arrival Status.
+1. The results show us that with the help of Machine Learning techniques and the Exploratory Data Analysis it's possible to predict Bus Arrival Status.
 2. According to the performance metrics we used the best model for the On Time Status prediction is KNN, it got a good score and due to the low training time it will be more suitable for implemetation that other models.
 3. To meet the expected bus frequency (each 15 minute a bus visiting a stop), the company needs to monitor periodically the bus performance by checking each stop arrival status metric along with Time difference between Stop Visits, Trip Duration. Stop Duration and the Peak Hours.
 
